@@ -1,5 +1,5 @@
 R = input('Enter the graylevel region');
-h = uint8(rgb2gray(imread('D3.jpg')));
+h = uint8(rgb2gray(imread('.jpg')));  %Input your image here
 [r,c] = size(h);
 subplot(1,2,1)
 imshow(h)

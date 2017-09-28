@@ -1,4 +1,4 @@
-h= imread('f1.jpg');
+h= imread('.jpg');   %Input your image here
 [r,c]=size(h);
 subplot(1,2,1)
 imhist(h)

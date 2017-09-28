@@ -1,4 +1,4 @@
-h = double(imresize(rgb2gray(imread('D21.jpg')),[500 400]));
+h = double(imresize(rgb2gray(imread('.jpg')),[500 400])); %Input your image here
 [r,c]=size(h);
 subplot(1,2,1)
 imshow(uint8(h))

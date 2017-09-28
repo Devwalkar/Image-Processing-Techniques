@@ -1,6 +1,5 @@
-%h = imresize(rgb2gray(imread('f3.jpg')),[400 500]);
-%h = imread('j3.jpg');
-h = imread('f1.jpg');
+
+h = imread('.jpg');  %Input your image here
 [r,c] = size(h);
 subplot(2,2,2)
 imhist(h)
